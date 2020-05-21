@@ -1,0 +1,10 @@
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\bin\Debug\CalculadoraLAB7.exe.config
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\bin\Debug\CalculadoraLAB7.exe
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\bin\Debug\CalculadoraLAB7.pdb
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.csprojAssemblyReference.cache
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.calculadora.resources
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.Properties.Resources.resources
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.csproj.GenerateResource.cache
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.csproj.CoreCompileInputs.cache
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.exe
+C:\Users\cvera\Desktop\labpoo\laboratorio-07-cveralyon\CalculadoraLAB7\CalculadoraLAB7\obj\Debug\CalculadoraLAB7.pdb
