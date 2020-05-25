@@ -55,6 +55,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.boton_historial = new System.Windows.Forms.Button();
             this.pantalla_total = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_borrar_historial = new System.Windows.Forms.Button();
+            this.text_historial = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // boton_7
@@ -367,6 +372,7 @@
             this.boton_historial.TabIndex = 27;
             this.boton_historial.Text = "Historial";
             this.boton_historial.UseVisualStyleBackColor = false;
+            this.boton_historial.Click += new System.EventHandler(this.boton_historial_Click);
             // 
             // pantalla_total
             // 
@@ -376,6 +382,51 @@
             this.pantalla_total.Size = new System.Drawing.Size(236, 20);
             this.pantalla_total.TabIndex = 28;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btn_borrar_historial);
+            this.panel1.Controls.Add(this.text_historial);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(165, 228);
+            this.panel1.TabIndex = 29;
+            this.panel1.Visible = false;
+            // 
+            // btn_borrar_historial
+            // 
+            this.btn_borrar_historial.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btn_borrar_historial.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_borrar_historial.Location = new System.Drawing.Point(9, 189);
+            this.btn_borrar_historial.Name = "btn_borrar_historial";
+            this.btn_borrar_historial.Size = new System.Drawing.Size(139, 23);
+            this.btn_borrar_historial.TabIndex = 28;
+            this.btn_borrar_historial.Text = "Borrar Historial";
+            this.btn_borrar_historial.UseVisualStyleBackColor = false;
+            this.btn_borrar_historial.Click += new System.EventHandler(this.btn_borrar_historial_Click);
+            // 
+            // text_historial
+            // 
+            this.text_historial.AcceptsReturn = true;
+            this.text_historial.Location = new System.Drawing.Point(9, 33);
+            this.text_historial.Multiline = true;
+            this.text_historial.Name = "text_historial";
+            this.text_historial.ReadOnly = true;
+            this.text_historial.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.text_historial.Size = new System.Drawing.Size(139, 146);
+            this.text_historial.TabIndex = 2;
+            this.text_historial.TextChanged += new System.EventHandler(this.text_historial_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(37, 8);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(85, 24);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Historial";
+            // 
             // calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -383,6 +434,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(425, 241);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pantalla_total);
             this.Controls.Add(this.boton_historial);
             this.Controls.Add(this.label4);
@@ -416,6 +468,8 @@
             this.Name = "calculadora";
             this.Text = "CASIO POO CALCULATOR";
             this.Load += new System.EventHandler(this.calculadora_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -450,6 +504,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button boton_historial;
         private System.Windows.Forms.TextBox pantalla_total;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox text_historial;
+        private System.Windows.Forms.Button btn_borrar_historial;
     }
 }
 

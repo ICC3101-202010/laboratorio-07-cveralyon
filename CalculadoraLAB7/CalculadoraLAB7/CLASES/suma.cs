@@ -8,6 +8,8 @@ namespace CalculadoraLAB7
 {
     class suma
     {
+        public static List<string> historial = new List<string>();
+
         public double Sumar(double numero1, double numero2)
         {
             double suma;
